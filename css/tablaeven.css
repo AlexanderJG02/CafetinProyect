@@ -1,0 +1,33 @@
+      
+        table {
+            width: 90%;
+            max-width: 900px; 
+            margin: 0 auto; 
+            border-collapse: collapse;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 12px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+       
+        tbody tr:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+        tbody tr:hover {
+            background-color: #f0f0f0;
+        }
+        @keyframes fade-in {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        tbody tr {
+            animation: fade-in 0.5s ease-in-out;
+        }

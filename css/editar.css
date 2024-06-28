@@ -1,0 +1,65 @@
+   body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #48C9B0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+            animation: bounceIn 0.5s ease forwards;
+        }
+        @keyframes bounceIn {
+            0% { transform: translateY(-50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #48C9B0;
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #48C9B0;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 2px solid #48C9B0;
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        .form-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        input[type="submit"], .btn-cancelar {
+            background-color: #48C9B0;
+            color: black;
+            border: none;
+            padding: 12px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover, .btn-cancelar:hover {
+            background-color: #1ABC9C;
+        }

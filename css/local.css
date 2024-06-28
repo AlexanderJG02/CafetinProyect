@@ -1,0 +1,32 @@
+.caja {
+    border: 2px solid #853982;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.caja:hover {
+    transform: scale(1.05);
+}
+
+.nombre-local {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #853982;
+}
+
+.direccion-local {
+    margin-top: 5px;
+}
+
+.imagen-local {
+    width: 90%;
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+

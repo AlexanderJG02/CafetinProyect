@@ -1,0 +1,60 @@
+     fieldset {
+            border-color: rgb(151, 56, 141);
+            padding: 20px 30px;
+            max-width: 400px; 
+            margin: 0 auto; 
+        }
+        
+        h2 {
+            text-align: center;
+            padding: 30px;
+            color: rgb(61, 139, 135);
+        }
+        
+        input[type="text"],
+        select {
+            margin-bottom: 10px; 
+            width: calc(100% - 24px); 
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; 
+        }
+        
+        .tarjeta {
+            display: none;
+        }
+        
+        button {
+            background-color: rgb(255, 192, 203);
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: rgb(215, 121, 177);
+        }
+        
+        .total {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        
+        .alerta {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.8s ease;
+        }

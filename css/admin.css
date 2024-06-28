@@ -1,0 +1,76 @@
+/* CSS para el diseño de la barra de navegación */
+.navbar {
+    background-color: #708c4d;
+    padding: 1rem 0;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #6f3352;
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.nav-link {
+    transition: transform 0.3s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    background-color: #708c4d;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: pink;
+}
+
+/* Estilos para las cajas con información */
+.informacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.caja {
+    width: calc(45% - 20px);
+    margin: 10px;
+    background-color: #bcd899;
+    color: black;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.caja:hover {
+    transform: translateY(-5px);
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bold;
+}
